@@ -38,6 +38,9 @@ const myCalculator = {
             case '/':
                 this.division()
                 break;
+            default:
+                alert('Error');
+                console.log('Error');
         }
     },
 }
